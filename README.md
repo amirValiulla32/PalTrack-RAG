@@ -11,25 +11,25 @@ A **Retrieval-Augmented Generation (RAG) chatbot** designed to provide **accurat
 
 ## 📌 Getting Started
 
-### **1️⃣ Clone the Repository**
+### ** 1. Clone the Repository**
 ```bash
 git clone https://github.com/amirValiulla32/PalTrack-RAG.git
 cd PalTrack-RAG
 ```
 
-### **2️⃣ Set Up a Virtual Environment**
+### ** 2. Set Up a Virtual Environment**
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # (Mac/Linux)
 venv\Scripts\activate     # (Windows)
 ```
 
-### **3️⃣ Install Dependencies**
+### ** 3. Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### **4️⃣ Install & Run Ollama**
+### ** 4. Install & Run Ollama**
 ```bash
 brew install ollama  # (Mac)
 curl -fsSL https://ollama.com/install.sh | sh  # (Linux)
@@ -39,12 +39,12 @@ ollama pull mistral
 brew services start ollama 
 ```
 
-### **5️⃣ Build the Vector Database**
+### ** 5. Build the Vector Database**
 ```bash
 python vector_db.py
 ```
 
-### **6️⃣ Run the Chatbot**
+### ** 6. Run the Chatbot**
 ```bash
 python chatbot.py
 ```
