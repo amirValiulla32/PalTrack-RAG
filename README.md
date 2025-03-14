@@ -35,6 +35,8 @@ brew install ollama  # (Mac)
 curl -fsSL https://ollama.com/install.sh | sh  # (Linux)
 ollama serve &
 ollama pull mistral
+
+brew services start ollama 
 ```
 
 ### **5️⃣ Build the Vector Database**
