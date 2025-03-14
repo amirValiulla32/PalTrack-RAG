@@ -11,25 +11,25 @@ A **Retrieval-Augmented Generation (RAG) chatbot** designed to provide **accurat
 
 ## 📌 Getting Started
 
-### ** 1. Clone the Repository**
+###  1. Clone the Repository
 ```bash
 git clone https://github.com/amirValiulla32/PalTrack-RAG.git
 cd PalTrack-RAG
 ```
 
-### ** 2. Set Up a Virtual Environment**
+###  2. Set Up a Virtual Environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # (Mac/Linux)
 venv\Scripts\activate     # (Windows)
 ```
 
-### ** 3. Install Dependencies**
+###  3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### ** 4. Install & Run Ollama**
+###  4. Install & Run Ollama
 ```bash
 brew install ollama  # (Mac)
 curl -fsSL https://ollama.com/install.sh | sh  # (Linux)
@@ -39,16 +39,16 @@ ollama pull mistral
 brew services start ollama 
 ```
 
-### ** 5. Build the Vector Database**
+###  5. Build the Vector Database
 ```bash
 python vector_db.py
 ```
 
-### ** 6. Run the Chatbot**
+###  6. Run the Chatbot
 ```bash
 python chatbot.py
 ```
-✅ **Now you can ask questions about Palestine!**
+✅ **Now you can ask questions about Palestine**
 
 ## 🛑 Stopping Ollama
 To stop Ollama after use:
