@@ -48,16 +48,16 @@ python vector_db.py
 ```bash
 python chatbot.py
 ```
-✅ **Now you can ask questions about Palestine**
+ **Now you can ask questions about Palestine**
 
-## 🛑 Stopping Ollama
+##  Stopping Ollama
 To stop Ollama after use:
 ```bash
 brew services stop ollama  # Mac
 pkill -9 ollama            # Linux
 ```
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 **Issue: `ModuleNotFoundError` for dependencies**
 - Make sure you activated your virtual environment:  
   ```bash
@@ -85,7 +85,7 @@ pkill -9 ollama            # Linux
   python vector_db.py
   ```
 
-## 📌 To-Do (Planned Improvements)
+## To-Do (Planned Improvements)
 - [ ] Expand the knowledge base with more structured data
 - [ ] **Improve retrieval accuracy** (chunk size, embeddings)
 - [ ] **Add real-time news retrieval** for live updates
