@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+.DS_Store # Ignore Mac system files
+venv/
+__pycache__/
+*.dylib
+*.so
+*.pkl # Ignore pickle files if used in FAISS
+.DS_Store # Ignore Mac system files
